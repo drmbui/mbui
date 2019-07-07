@@ -9,6 +9,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="angularjs" Version="1.7.8.1" />
+    <PackageReference Include="AngularJS.Core" Version="1.7.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\pix\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Data.cshtml" />
+  </ItemGroup>
 </Project>

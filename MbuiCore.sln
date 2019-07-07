@@ -14,4 +14,22 @@ Global
 		{ECE7200D-0D62-4837-8B65-232F6813398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECE7200D-0D62-4837-8B65-232F6813398B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-cshtml-web
+		$0.HTMLFormattingPolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-cshtml-web
+		$0.TextStylePolicy = $3
+		$3.inheritsSet = null
+		$3.scope = text/x-json
+		$0.JSONFormattingPolicy = $4
+		$4.AutoStructureCompletion = True
+		$4.BracePositions = SemiExpanded
+		$4.FormatOnPaste = True
+		$4.scope = text/x-json
+		$0.VersionControlPolicy = $5
+	EndGlobalSection
 EndGlobal
